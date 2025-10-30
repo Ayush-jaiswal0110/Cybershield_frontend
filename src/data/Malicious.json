@@ -1,0 +1,124 @@
+{
+  "emails": [
+    {
+      "sender": "suspicious@external.com",
+      "receiver": "ariz@reqpedia.com",
+      "subject": "Urgent: Verify Your Account",
+      "body": "Dear User,\n\nWe have detected unusual activity on your account. Please verify your identity by clicking the link below:\n\nhttps://fake-verification-site.com/verify\n\nThis is urgent and your account will be suspended if not verified within 24 hours.\n\nBest regards,\nSecurity Team",
+      "prediction": 1,
+      "probability": 0.95
+    },
+    {
+      "sender": "attachment@unknown.org", 
+      "receiver": "harpriya@reqpedia.com",
+      "subject": "Invoice Attached - Please Review",
+      "body": "Hello,\n\nPlease find attached the invoice for your recent purchase.\n\nInvoice_2025.pdf\n\nPlease review and let us know if you have any questions.\n\nThank you,\nBilling Department",
+      "prediction": 1,
+      "probability": 0.98
+    },
+    {
+      "sender": "fake@company.com",
+      "receiver": "arpit@reqpedia.com", 
+      "subject": "Internal Meeting Update",
+      "body": "Hi Team,\n\nJust a quick update on our internal meeting scheduled for tomorrow.\n\nPlease prepare the quarterly reports and bring your laptops.\n\nMeeting Room: Conference Room A\nTime: 2:00 PM\n\nBest,\nManagement",
+      "prediction": 1,
+      "probability": 0.87
+    },
+    {
+      "sender": "encrypt@malicious.net",
+      "receiver": "somnath@reqpedia.com",
+      "subject": "Your Files Have Been Encrypted", 
+      "body": "ATTENTION!\n\nYour files have been encrypted with military-grade encryption.\n\nTo recover your files, you must pay 0.5 Bitcoin to:\n1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa\n\nYou have 72 hours to pay or your files will be permanently deleted.\n\nDo not contact authorities or we will delete everything immediately.\n\nRansomware Team",
+      "prediction": 1,
+      "probability": 0.99
+    },
+    {
+      "sender": "promo@spammy.com",
+      "receiver": "ariz@reqpedia.com",
+      "subject": "Limited Time Offer - 90% Off!",
+      "body": "🎉 AMAZING DEAL! 🎉\n\nGet 90% OFF on all our products!\n\nThis offer expires in 24 hours!\n\nClick here: https://spammy-deals.com/offer\n\nDon't miss out!\n\nSpammy Deals Team", 
+      "prediction": 1,
+      "probability": 0.82
+    },
+    {
+      "sender": "support@bank-fake.com",
+      "receiver": "harpriya@reqpedia.com",
+      "subject": "Security Alert: Unusual Activity Detected",
+      "body": "Dear Customer,\n\nWe have detected unusual activity on your account.\n\nPlease verify your identity immediately:\n\nhttps://bank-fake-verification.com/verify\n\nYour account will be locked if not verified within 2 hours.\n\nBank Security Team",
+      "prediction": 1,
+      "probability": 0.93
+    },
+    {
+      "sender": "download@virus.org",
+      "receiver": "arpit@reqpedia.com",
+      "subject": "Important Document - Download Now",
+      "body": "Hello,\n\nPlease download the attached important document.\n\nDocument.pdf\n\nThis document contains critical information about your account.\n\nPlease download and review immediately.\n\nIT Department",
+      "prediction": 1,
+      "probability": 0.97
+    },
+    {
+      "sender": "ceo@company-fake.com",
+      "receiver": "somnath@reqpedia.com",
+      "subject": "Wire Transfer Request - Urgent",
+      "body": "Hi,\n\nI need you to process a wire transfer immediately.\n\nAmount: $50,000\nRecipient: John Smith\nAccount: 1234567890\nBank: First National Bank\n\nThis is urgent and confidential.\n\nPlease process ASAP.\n\nCEO",
+      "prediction": 1,
+      "probability": 0.89
+    },
+    {
+      "sender": "noreply@paypal-fake.com",
+      "receiver": "ariz@reqpedia.com",
+      "subject": "Payment Failed - Update Your Information",
+      "body": "Dear PayPal User,\n\nYour recent payment has failed due to incorrect billing information.\n\nPlease update your payment method:\n\nhttps://paypal-fake-update.com/update\n\nYour account will be suspended if not updated within 48 hours.\n\nPayPal Support",
+      "prediction": 1,
+      "probability": 0.94
+    },
+    {
+      "sender": "newsletter@spam-site.com",
+      "receiver": "harpriya@reqpedia.com",
+      "subject": "Daily Newsletter - Click Here",
+      "body": "Hi there!\n\nCheck out our daily newsletter with amazing content!\n\nClick here: https://spam-newsletter.com/newsletter\n\nDon't forget to subscribe!\n\nNewsletter Team",
+      "prediction": 1,
+      "probability": 0.76
+    },
+    {
+      "sender": "legitimate@company.com",
+      "receiver": "arpit@reqpedia.com",
+      "subject": "Weekly Team Meeting Reminder",
+      "body": "Hi Team,\n\nJust a reminder about our weekly team meeting tomorrow at 10 AM.\n\nAgenda:\n- Project updates\n- Q&A session\n- Next week planning\n\nMeeting Room: Conference Room B\n\nSee you there!\n\nTeam Lead",
+      "prediction": 0,
+      "probability": 0.15
+    },
+    {
+      "sender": "hr@company.com",
+      "receiver": "somnath@reqpedia.com",
+      "subject": "Company Policy Update",
+      "body": "Dear All,\n\nWe have updated our company policies. Please review the attached document.\n\nPolicy_Update_2025.pdf\n\nIf you have any questions, please contact HR.\n\nBest regards,\nHuman Resources",
+      "prediction": 0,
+      "probability": 0.08
+    },
+    {
+      "sender": "it-support@company.com",
+      "receiver": "ariz@reqpedia.com",
+      "subject": "Password Reset Confirmation",
+      "body": "Hello,\n\nYour password has been successfully reset as requested.\n\nYour new temporary password is: TempPass123!\n\nPlease log in and change it immediately.\n\nIf you did not request this reset, please contact IT support.\n\nIT Support Team",
+      "prediction": 0,
+      "probability": 0.12
+    },
+    {
+      "sender": "finance@company.com",
+      "receiver": "harpriya@reqpedia.com",
+      "subject": "Monthly Budget Report",
+      "body": "Hi Manager,\n\nPlease find attached the monthly budget report.\n\nBudget_Report_January_2025.pdf\n\nKey highlights:\n- Revenue: $125,000\n- Expenses: $98,000\n- Profit: $27,000\n\nPlease review and let me know if you have any questions.\n\nFinance Team",
+      "prediction": 0,
+      "probability": 0.05
+    },
+    {
+      "sender": "marketing@company.com",
+      "receiver": "arpit@reqpedia.com",
+      "subject": "New Product Launch Campaign",
+      "body": "Hi Sales Team,\n\nWe're launching our new product next month. Here's the campaign strategy:\n\n1. Social media promotion\n2. Email marketing\n3. Press release\n4. Trade show participation\n\nPlease prepare your sales materials accordingly.\n\nMarketing Team",
+      "prediction": 0,
+      "probability": 0.03
+    }
+  ]
+}
