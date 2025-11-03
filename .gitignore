@@ -3,3 +3,4 @@ backend
 .env
 .env.local
 start_fastapi_system.bat
+dist 

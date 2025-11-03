@@ -173,7 +173,7 @@ export default function LandingPage({ onNavigate }) {
             <Button variant="ghost" onClick={() => navigate('/login')}>
               Sign In
             </Button>
-            <Button onClick={() => onNavigate('deploy')}>
+            <Button onClick={() => navigate('/deploy')}>
               Get Started
             </Button>
           </div>
@@ -203,9 +203,10 @@ export default function LandingPage({ onNavigate }) {
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" onClick={() => navigate('/deploy')}>
-                Deploy Now
+                See How It Works
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
+
               <Button size="lg" variant="outline">
                 Watch Demo
               </Button>
